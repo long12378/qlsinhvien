@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txvLop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tron"
+        android:text="JAVA"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000000">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txvTen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Le Thi A"
+            android:gravity="center_vertical"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/imgGT"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/icons_girl"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="0909898765"
+                    android:id="@+id/txvSDT"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="mail@gmail.com"
+                    android:id="@+id/txvEmail"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
